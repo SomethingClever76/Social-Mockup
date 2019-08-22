@@ -15,16 +15,24 @@ header {
 
 #blueBox {
     width: 850px;
-    height: 80%;
+    height: 88%;
     background-color: #4C5B9E;
     margin: 0 auto;
 }
 
-#blueBox h1, h2 {
+#headerText {
     color: #FFFFF6;
     position: relative;
-    top: 200px;
+    top: 30px; 
     left: 250px;
+}
+
+#headerText h1 {
+    font-weight: bold;
+}
+
+#headerText h2 {
+    font-weight: lighter;
 }
 
 #photoBox {
@@ -33,18 +41,37 @@ header {
     height: 200px;
     background-color: #4C5B9E;
     position: relative;
-    top: 170px;
+    top: 185px;
     left: 25px;
 }
 
 #whiteBox {
     width: 850px;
-    height: 20%;
+    height: 12%;
     background-color: #FFFFF6;
     margin: 0 auto;
 }
 
-#whiteBox ul li {
+#navList {
+    margin-left: 250px;
+}
+
+#navList ul {
+    margin: 0;
+    padding: 0;
+}
+
+#navList ul li {
     color: black;
     display: inline;
+    border-right: 2px solid #E6E7EB;
+}
+
+#navList ul li:first-child {
+    font-weight: bold;
+    border-bottom: 2px solid #4C5B9E;
+}
+
+#navList ul li:last-child {
+    border: none;
 }
