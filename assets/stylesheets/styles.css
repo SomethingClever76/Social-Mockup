@@ -23,16 +23,18 @@ header {
 #headerText {
     color: #FFFFF6;
     position: relative;
-    top: 30px; 
+    top: 45px; 
     left: 250px;
 }
 
 #headerText h1 {
     font-weight: bold;
+    font-size: 24px;
 }
 
 #headerText h2 {
     font-weight: lighter;
+    font-size: 20px;
 }
 
 #photoBox {
@@ -43,6 +45,17 @@ header {
     position: relative;
     top: 185px;
     left: 25px;
+}
+
+#LikeButton {
+    background-color: #E6E7EB;
+    width: 75px;
+    font-size: 15px;
+    font-weight: bold;
+    position: relative;
+    float: right;
+    margin-right: 180px;
+    border-radius: 5px;
 }
 
 #whiteBox {
@@ -63,15 +76,54 @@ header {
 
 #navList ul li {
     color: black;
-    display: inline;
+    display: inline-block;
     border-right: 2px solid #E6E7EB;
+    padding-top: 10px;
+    padding: 15px;
 }
 
 #navList ul li:first-child {
     font-weight: bold;
+    border-right: 0;
     border-bottom: 2px solid #4C5B9E;
+    padding: 0;
+    padding-bottom: 10px;
 }
 
 #navList ul li:last-child {
     border: none;
+}
+
+#columnContainer {
+    width: 850px;
+    margin: 0 auto;
+}
+
+#leftColumn {
+    width: 328px;
+    float: left;
+}
+
+#rightColumn {
+    width: 512px;
+    float: right;
+}
+
+#aboutMe {
+    background-color: #FFFFF6;
+}
+
+#aboutMe h4 {
+    font-weight: bold;
+    /* border-top: 1px solid black; */
+    /* padding-top: 30px;
+    margin-top: 30px; */
+}
+
+#aboutMe p {
+    color: #4C5B9E;
+}
+
+#update1 {
+    background-color: #FFFFF6;
 }
