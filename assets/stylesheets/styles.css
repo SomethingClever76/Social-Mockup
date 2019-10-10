@@ -58,6 +58,18 @@ header {
     border-radius: 5px;
 }
 
+#buttonBar {
+    background-color: #E6E7EB;
+    width: 200px;
+    font-size: 15px;
+    position: relative;
+    float: right;
+    border-radius: 5px;
+}
+
+#buttonBar div {
+}
+
 #whiteBox {
     width: 850px;
     height: 12%;
